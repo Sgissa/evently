@@ -1,0 +1,111 @@
+.foot{
+    width: 1280px;
+    height: 455px;
+    background-color: #EE4367;
+    padding-top: 36px;
+    margin: 0 auto;
+    .logo{
+        width: 92px;
+        height: 42px;
+        border: 2px solid white;
+        margin: 0 auto;
+        
+        .logo-text{
+            padding-top: 20px;
+            // padding-left: 10px;
+
+            .logo-word{
+                color: white;
+                font-size: 20px;
+                font-family: Gill Sans;
+            }
+        }
+    }
+    .contact-info{
+        width: 300px;
+        height: 60px;
+        margin:0 auto;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // background-color: antiquewhite;
+        .addy{
+            color: white;
+            font-family: Gill Sans;
+            font-size: 16px;
+            
+        }
+        .phone{
+            color: white;
+            font-family: Gill Sans;
+            font-size: 16px;
+            margin-top: -10px;
+        }
+        .email{
+            color: white;
+            font-family: Gill Sans;
+            font-size: 16px;
+            margin-top: -10px;
+        }
+    }
+    .signup-container{
+        background-color: brown;
+        width: 696px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 48px;
+        display: flex;
+
+        .letterbox{
+            width: 529px;
+            height: 60px;
+            border: none;
+            font-family: Gill Sans;
+            font-size: 16px;
+            color: white;
+            background-color: #F56B88;
+            padding-left: 20px;
+        }
+        .subBtn{
+            width: 167px;
+            height: 60px;
+            border: none;
+            color: #EE4367;
+            font-family: Gill Sans;
+            font-size: 16px;
+            background-color: white;
+        }
+    }
+
+    .socials {
+        width: 154px;
+        height: 31px;
+        // background-color: bisque;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .icon {
+            width: 31px;
+            height: 31px;
+            // background-color: aqua;
+        }
+    }
+    .copyright {
+        // background-color: aqua;
+        width: 300px;
+        height: 14px;
+        margin: 0 auto;
+        margin-top: 46px;
+
+
+        .copy{
+            color: white;
+            opacity: 50%;
+            font-family: Gill Sans;
+            font-size: 12xpx;
+        }
+    }
+}

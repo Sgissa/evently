@@ -1,0 +1,60 @@
+.gallery{
+    .title-holder{
+        width: 229px;
+        height: 40px;
+        // background-color: cadetblue;
+        border-bottom: 2px solid black;
+        margin-left: 150px;
+        margin-top: 65px;
+        margin-bottom: 30px;
+
+        .title-text{
+            font-family: Gill Sans;
+            font-size: 25px;
+            color: black;
+        }
+    }
+
+    .gal-links{
+        width: 981px;
+        height: 513px;
+        // background-color: aquamarine;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 60px;
+
+        .glink{
+            width: 489px;
+            height: 187px;
+            background-color: yellow;
+        }
+
+        .glink2{
+            width: 187px;
+            height: 187px;
+            background-color: red;
+        }
+
+        .glink3{
+            width: 265px;
+            height: 187px;
+            background-color: green;
+        }
+
+        .glink4{
+            width: 603px;
+            height: 306px;
+            background-color: purple;
+            margin-top: 20px;
+        }
+
+        .glink5{
+            width: 355px;
+            height: 306px;
+            background-color: greenyellow;
+            margin-top: 20px;
+        }
+    }
+}

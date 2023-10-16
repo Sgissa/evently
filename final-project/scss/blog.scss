@@ -1,0 +1,115 @@
+.blog-header{
+//    background-color: antiquewhite;
+    margin-top: 65px;
+    margin-left: 150px;
+    height: 40px;
+    max-width: 104px;
+    .blog-text{
+        font-family: Gill Sans;
+        font-size: 25px;
+        border-bottom: solid black;
+    }
+  }  
+
+.blog {
+    width: 980px;
+    height: 831px;
+    margin: 0 auto;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+//   .blog-header{
+// //    background-color: antiquewhite;
+//     margin-top: 65px;
+//     height: 40px;
+//     max-width: 104px;
+//     .blog-text{
+//         font-family: Gill Sans;
+//         font-size: 25px;
+//         border-bottom: solid black;
+//     }
+//   }  
+
+  .blog-content {
+    width: 460px;
+    min-height: 257px;
+    // background-color: goldenrod;
+    // margin-top: 30px;
+    // margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .left{
+        // background-color: blueviolet;
+        max-width: 60px;
+        height: 60px;
+
+        .date{
+            background-color: #EE4367;
+            color:white;
+            border: none;
+            padding-top: 10px;
+            padding-right: 17px;
+            padding-left: 17px;
+            height: 60px;
+            width: 60px;
+            .date-number{
+                font-family: Gill Sans;
+                font-size: 22px;
+            }
+
+            .date-month{
+                font-family:  Gill Sans;
+                font-size: 12px;
+                margin-top: -15px;
+                
+            }
+
+        }
+    }
+
+    .right{
+        // background-color: cadetblue;
+        max-width: 900px;
+        // height: 60px;
+
+        .pic-holder{
+            max-width: 380px;
+            height: 140px;
+            // background-color: aquamarine;
+            img {
+                width: 100%;
+            }
+        }
+
+        .subtitle {
+            max-width: 245;
+            height: 22px;
+            // background-color: bisque;
+            margin-top: 20px;
+            .sub-text{
+                font-size: 15px;
+                font-family: Gill Sans ;
+            }
+        }
+
+        .textbox{
+            max-width: 380px;
+            height: 64px;
+            // background-color: brown;
+            margin-top: 11px;
+            .textbox-text {
+                font-size: 13px;
+                font-family: Gill Sans ;
+                color: #EE4367;
+            }
+        }
+
+    }
+  }
+   
+}

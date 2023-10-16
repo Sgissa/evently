@@ -1,0 +1,60 @@
+.galTwo .hero {
+  width: 980px;
+  height: 379px;
+  background-image: url(../images/gallery-2.png);
+  margin: 0 auto;
+  margin-top: 85px;
+  padding-top: 38px;
+  margin-bottom: 50px;
+}
+.galTwo .hero .title-container {
+  width: 937px;
+  height: 344px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.galTwo .hero .title-container .title-num {
+  height: 344px;
+  width: 216px;
+  font-family: Gill Sans;
+  font-size: 300px;
+  color: #FFD140;
+  margin-top: 65px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.galTwo .hero .title-container .title-name {
+  width: 721px;
+  height: 161px;
+  font-family: Gill Sans;
+  font-size: 140px;
+  color: #FFD140;
+  margin-top: 212px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.galTwo .gallery-textbox {
+  width: 981px;
+  height: 133px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.galTwo .gallery-textbox .left {
+  width: 490px;
+  height: 133px;
+  font-family: Gill Sans;
+  font-size: 16px;
+  font-style: italic;
+}
+.galTwo .gallery-textbox .right {
+  width: 451px;
+  height: 133px;
+  font-family: Gill Sans;
+  font-size: 16px;
+  font-style: italic;
+}

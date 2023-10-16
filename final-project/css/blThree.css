@@ -1,0 +1,70 @@
+.blThree .hero {
+  width: 981px;
+  height: 300px;
+  background-color: aqua;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 67, 103, 0.5)), to(rgba(238, 67, 103, 0.5))), url(../images/Blog-hero.png);
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/Blog-hero.png);
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 57px;
+}
+.blThree .hero .date {
+  background-color: #EE4367;
+  color: white;
+  border: none;
+  padding-top: 25px;
+  padding-right: 17px;
+  padding-left: 44px;
+  height: 155px;
+  width: 155px;
+}
+.blThree .hero .date .date-number {
+  font-family: Gill Sans;
+  font-size: 55px;
+}
+.blThree .hero .date .date-month {
+  font-family: Gill Sans;
+  font-size: 31px;
+  margin-top: -15px;
+}
+.blThree .content-holder {
+  height: 295px;
+  width: 856px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+.blThree .content-holder .header-holder {
+  width: 120px;
+  height: 23px;
+}
+.blThree .content-holder .header-holder .header-words {
+  font-family: Gill Sans;
+  font-size: 20px;
+  color: #EE4367;
+}
+.blThree .content-holder .textbox1-holder {
+  width: 856px;
+  height: 125px;
+  margin-top: 30px;
+}
+.blThree .content-holder .textbox1-holder .textbox-words {
+  font-family: Gill Sans;
+  font-size: 20px;
+}
+.blThree .content-holder .textbox2-holder {
+  width: 856px;
+  height: 84px;
+  margin-top: 30px;
+}
+.blThree .content-holder .textbox2-holder .textbox-words {
+  font-family: Gill Sans;
+  font-size: 20px;
+}

@@ -1,0 +1,74 @@
+.galThree{
+
+    .hero{
+        width: 980px;
+        height: 379px;
+        // background-color: aqua;
+        background-image: url(../images/gallery-3.png);
+        margin: 0 auto;
+        margin-top: 85px;
+        padding-top: 38px;
+        margin-bottom: 50px;
+
+        .title-container{
+            width: 937px;
+            height: 344px;
+            // background-color: bisque;
+            display: flex;
+            // margin-bottom: ;
+            
+            .title-num{
+                height: 344px;
+                width: 216px;
+                // background-color: blanchedalmond;
+                font-family: Gill Sans;
+                font-size: 300px;
+                color: #08AD69;
+                margin-top: 65px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            .title-name{
+                width: 721px;
+                height: 161px;
+                // background-color: aqua;
+                font-family: Gill Sans;
+                font-size: 140px;
+                color: #08AD69;
+                margin-top: 212px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .gallery-textbox{
+        width: 981px;
+        height: 133px;
+        // background-color: antiquewhite;  
+        margin: 0 auto;
+        margin-bottom: 95px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        .left{
+            width: 490px;
+            height: 133px;
+            // background-color: blueviolet;
+            font-family: Gill Sans;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .right{
+            width: 451px;
+            height: 133px;
+            // background-color: brown;
+            font-family: Gill Sans;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+    }
+    
+
+}

@@ -1,0 +1,46 @@
+.navi .nav-container {
+  max-width: 980px;
+  height: 100px;
+  background-color: aqua;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navi .nav-container .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+.navi .nav-container .logo .logo-text {
+  padding-top: 20px;
+}
+.navi .nav-container .logo .logo-text .logo-word {
+  color: white;
+  font-size: 20px;
+  font-family: Gill Sans;
+}
+.navi .nav-container .links {
+  color: #EE4367;
+  width: 373px;
+  height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.navi .nav-container .links a {
+  color: white;
+  text-decoration: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+}
